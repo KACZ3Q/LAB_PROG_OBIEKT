@@ -16,12 +16,14 @@ public class przyklad extends JFrame {
     private JButton wyczyśćButton;
     private JLabel WynikL;
     private JButton wyświetlWybórButton;
+    private JLabel labelIcon;
 
     public static void  main(String[] args)
     {
         przyklad gui = new przyklad();
         gui.setVisible(true);
     }
+    private ImageIcon logo1wsiz = new ImageIcon(getClass().getResource("logo1wsiz.png"))
     double a,b,wynik;
     public przyklad()
     {
@@ -79,6 +81,11 @@ public class przyklad extends JFrame {
                 wtorekCheckBox.isSelected();
             }
         });
+        javaRadioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+             //   if (javaRadioButton.isSelected())labelIcon.setIcon(resize(logo1wsiz,10));
+            }
+        });
     }
 }
-
