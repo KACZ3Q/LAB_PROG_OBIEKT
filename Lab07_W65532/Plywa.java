@@ -1,6 +1,8 @@
 public interface Plywa {
     void Plyn();
-    void Wynurz();
+    void zanurz();
+    void wynurz();
+    void wydalaj();
+    void jedz();
 
-    void Zanurz();
 }
