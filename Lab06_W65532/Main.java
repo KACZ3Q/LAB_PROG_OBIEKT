@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args)
     {
         //zadanie1();
+        zadanie2();
     }
         public static void zadanie1()
         {
@@ -43,7 +44,14 @@ public class Main {
 
         }
 
+  public static void zadanie2()
+    {
+        Samochod s1=new Samochod("opel","c","A","bialy",2014,1555);
+        s1.informacje();
+        SamochodOsobowy s2=new SamochodOsobowy("opel","astra","C","szary",2011,7000,2,1.9,5);
+        s2.informacje();
 
+    }
 
 
 
