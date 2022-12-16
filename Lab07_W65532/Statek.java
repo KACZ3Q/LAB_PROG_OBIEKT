@@ -1,13 +1,7 @@
-public class Statek implements  Plywa{
+public class Statek implements  Plywanie{
 
     public void Plyn() {
     System.out.println("Statek Plynie");
     }
-    public void Wynurz(){
 
-    }
-    public void Zanurz()
-    {
-
-    }
 }
